@@ -1,0 +1,328 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  font-family: "open sans", sans-serif;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+p {
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+li {
+  font-weight: 600;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 7px 15px;
+  border-radius: 22px;
+  font-size: 15;
+  letter-spacing: 1px;
+  background-color: #1c3730;
+  border: 2px solid #1c3730;
+  color: #f8f8f8;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+}
+
+button:hover {
+  border: 2px solid #1c3730;
+  color: #f8f8f8;
+  background-color: #1c3730a9;
+}
+
+header {
+  width: 100%;
+  padding: 10px;
+  background: #f8f8f8e1;
+  position: fixed;
+}
+
+.logo img {
+  height: 25px;
+  width: auto;
+}
+
+#landing {
+  padding-top: 75px;
+  max-width: 1200px;
+}
+
+.landing_intro {
+  padding-left: 30px;
+}
+
+.landing_intro h1 {
+  color: #1c3730;
+}
+
+.landing_images {
+  padding: 40px 0px 20px 0px;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+}
+
+/* /next section */
+
+#next_section {
+  background-color: #eff3ee;
+}
+
+#mindful {
+  max-width: 1200px;
+  padding-left: 30px;
+}
+
+#mindful h1,
+#yoga h1 {
+  color: #1c3730;
+}
+
+.mindful_community {
+  margin-top: 30px;
+}
+
+.mindful_image {
+  padding-top: 40px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+#yoga {
+  max-width: 1200px;
+  padding-left: 30px;
+}
+
+.yoga_images {
+  margin: 40px 0px;
+  text-align: center;
+}
+
+/* numbers */
+
+#numbers {
+  max-width: 1000px;
+  margin-top: 40px;
+  padding: 10px 0px 50px 0px;
+  justify-content: space-between;
+}
+
+.number_box {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 35px;
+  color: #5c9589;
+}
+
+footer {
+  font-size: 10px;
+  text-align: center;
+  color: #1c3730;
+}
+
+/*------------------------------------------*/
+/* Min-WIDTH 765px ========================= */
+@media (min-width: 765px) {
+  h1 {
+    padding-bottom: 10px;
+  }
+
+  p {
+    padding-bottom: 20px;
+  }
+
+  li {
+    padding-bottom: 10px;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  #landing {
+  }
+
+  .landing_intro {
+    padding-top: 80px;
+    width: 500px;
+  }
+
+  .landing_images {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-right: 30px;
+  }
+
+  img {
+    width: 300px;
+  }
+
+  /* /next section */
+
+  .mindful_community {
+    width: 500px;
+    margin: 80px 0px 0px 40px;
+  }
+
+  .mindful_image {
+    margin: 0px 0px 0px 0px;
+  }
+
+  #yoga {
+    max-width: 1200px;
+    padding-bottom: 170px;
+    display: block;
+  }
+
+  .yoga_intro {
+    width: 500px;
+    margin: 40px 0px 0px 0px;
+  }
+
+  .yoga_images {
+    margin-top: 40px;
+    padding-bottom: 0px;
+  }
+
+  /* numbers */
+
+  #numbers {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    padding: 20px 0px 50px 0px;
+    justify-content: space-between;
+  }
+
+  .number_box {
+    overflow: hidden;
+    margin-bottom: 0px;
+    max-width: 300px;
+    text-align: center;
+  }
+}
+
+
+
+/*------------------------------------------*/
+/* Min-WIDTH 765px ========================= */
+@media (min-width: 1000px) {
+ h1 {
+    font-size: 32px;
+    padding-bottom: 10px;
+  }
+
+  p {
+    padding-bottom: 20px;
+  }
+
+  li {
+    padding-bottom: 10px;
+  }
+
+  button {
+    padding: 10px 15px;
+    border-radius: 22px;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+    background-color: #1c3730;
+    border: 2px solid #1c3730;
+    color: #f8f8f8;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s ease-in;
+  }
+
+  button:hover {
+    border: 2px solid #1c3730;
+    color: #f8f8f8;
+    background-color: #1c3730a9;
+  } */
+
+#landing {
+    padding: 40px 0px 170px 0px;
+  }
+
+  .landing_intro {
+    width: 500px;
+    margin: 40px 0px 0px 140px;
+  }
+
+  .landing_images {
+    margin-top: 0px;
+  }
+
+  img {
+    width: 300px;
+  }
+
+  /* /next section */
+
+.mindful_community {
+    width: 500px;
+    margin: 250px 0px 0px 140px;
+  }
+
+  .mindful_image {
+    margin: 20px 0px 0px 140px;
+  }
+
+  #yoga {
+    max-width: 1200px;
+    padding-bottom: 170px;
+  }
+
+  .yoga_intro {
+    width: 500px;
+    margin: 150px 0px 0px 140px;
+  }
+
+  .yoga_images {
+    margin-top: 20px;
+  }
+
+  /* numbers */
+
+#numbers {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    padding: 20px 0px 50px 0px;
+    justify-content: space-between;
+  }
+
+  .number_box {
+    overflow: hidden;
+    margin-bottom: 0px;
+    max-width: 300px;
+    text-align: center;
+  }  */
+}
