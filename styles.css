@@ -41,6 +41,7 @@ button {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.15s ease-in;
+box-shadow: 5px 7px 18px 1px rgba(193,193,193,0.83);
 }
 
 button:hover {
@@ -81,6 +82,7 @@ header {
 
 img {
   width: 200px;
+  -webkit-filter: drop-shadow(5px 7px 18px rgba(193,193,193,0.60) );
 }
 
 /* /next section */
@@ -256,6 +258,11 @@ footer {
    
   }
 
+  .logo img {
+    padding-left: 15px;
+    margin-top: 5px;
+  }
+
 #landing {
     padding: 40px 0px 50px 0px;
   }
@@ -286,7 +293,7 @@ footer {
 
   #yoga {
     max-width: 1200px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     display:flex;
   }
 
@@ -306,11 +313,11 @@ footer {
   /* numbers */
 
 #numbers {
-    max-width: 800px;
+    max-width: 700px;
     display: flex;
     flex-direction: row;
     margin-top: 60px;
-    padding: 0px 0px 50px 0px;
+    padding: 20px 0px 90px 0px;
     justify-content: space-between;
   }
 
