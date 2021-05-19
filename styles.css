@@ -3,9 +3,11 @@
   margin: 0 auto;
   padding: 0;
   font-family: "open sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
+    
   background-color: #f8f8f8;
 }
 
@@ -42,7 +44,7 @@ button {
 }
 
 button:hover {
-  border: 2px solid #1c3730;
+  border: 2px solid #1c3730a9;
   color: #f8f8f8;
   background-color: #1c3730a9;
 }
@@ -232,7 +234,7 @@ footer {
 
 
 /*------------------------------------------*/
-/* Min-WIDTH 765px ========================= */
+/* Min-WIDTH 1000px ========================= */
 @media (min-width: 1000px) {
  h1 {
     font-size: 32px;
@@ -251,23 +253,11 @@ footer {
     padding: 10px 15px;
     border-radius: 22px;
     font-size: 0.9em;
-    letter-spacing: 1px;
-    background-color: #1c3730;
-    border: 2px solid #1c3730;
-    color: #f8f8f8;
-    font-weight: 600;
-    cursor: pointer;
-    transition: all 0.15s ease-in;
+   
   }
 
-  button:hover {
-    border: 2px solid #1c3730;
-    color: #f8f8f8;
-    background-color: #1c3730a9;
-  } */
-
 #landing {
-    padding: 40px 0px 170px 0px;
+    padding: 40px 0px 50px 0px;
   }
 
   .landing_intro {
@@ -291,31 +281,36 @@ footer {
   }
 
   .mindful_image {
-    margin: 20px 0px 0px 140px;
+    margin: 20px 0px 0px 180px;
   }
 
   #yoga {
     max-width: 1200px;
-    padding-bottom: 170px;
+    padding-bottom: 100px;
+    display:flex;
   }
 
   .yoga_intro {
     width: 500px;
-    margin: 150px 0px 0px 140px;
+    margin: 100px 0px 0px 100px;
   }
 
   .yoga_images {
     margin-top: 20px;
   }
 
+  .yoga_images img {
+      width: 250px;
+  }
+
   /* numbers */
 
 #numbers {
-    max-width: 1000px;
+    max-width: 800px;
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
-    padding: 20px 0px 50px 0px;
+    margin-top: 60px;
+    padding: 0px 0px 50px 0px;
     justify-content: space-between;
   }
 
